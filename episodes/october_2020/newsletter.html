@@ -1,6 +1,105 @@
-<p style="text-align: center">
-  <img
-    src="https://github.com/abologna-rigup/fe-newsletters/blob/main/episodes/october_2020/assets/ep3.png?raw=true"
-    alt="FE Newsletter Ep.3 - October, 2020"
-  />
-</p>
+<div
+  style="display: flex; flex-direction: column; width: 980px; background-color: white; padding: 50px; color: #474747; font-size: 16px;">
+  <p style="text-align: center;">
+    <img src="https://github.com/abologna-rigup/fe-newsletters/blob/main/episodes/october_2020/assets/ep3.png?raw=true"
+      alt="FE Newsletter Ep.3 - October, 2020" />
+  <div style="text-align: center;">
+    <h1>Frontend Monthly Newsletter, Ep. 3</h1>
+    Hello and welcome to episode 3 of the Frontend Monthly Newsletter, providing an overview of RigUp’s frontend team’s
+    current activities and initiatives.
+  </div>
+  </p>
+  <div style="margin: 50px 0;">
+    <h2 style="color: #2a56e7;">Frontend Activities</h2>
+    <ol>
+      <li>
+        Weekly Frontend Meetings: 9:00 am CST.
+      </li>
+      <li>
+        Slack: <strong>#fe-engineers</strong>, <strong>#fet-engineers</strong>.
+      </li>
+      <li>
+        Confluence: <a href="https://rigup.atlassian.net/wiki/spaces/PROD/pages/258146363/Front+End+Team+FET"
+          title="Frontend Wiki">Frontend Wiki</a>
+      </li>
+    </ol>
+  </div>
+  <div style="margin: 50px 0;">
+    <h2 style="color: #2a56e7;">At a Glance</h2>
+    <ol>
+      <li>
+        Lattice 2.0 Released!
+      </li>
+      <li>
+        Visual Testing with Chromatic.
+      </li>
+      <li>
+        Frontend ecosystem.
+      </li>
+    </ol>
+  </div>
+  <div style="margin: 50px 0;">
+    <h2 style="color: #2a56e7;">Lattice version 2.0 Released 🎉</h2>
+    <h3>What?</h3>
+    <p>
+      Now in version 2.0, hard-coded dependencies with design system properties have been decoupled and migrated to
+      rigup
+      styles. Make sure to update your Lattice dependency.
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/rigup/lattice/releases/tag/v2.0.0" title="Lattice release information">Lattice
+          release
+          information</a>
+      </li>
+    </ul>
+  </div>
+
+  <div style="margin: 50px 0;">
+    <h2 style="color: #2a56e7;">Visual Testing with Chromatic 💪</h2>
+    <h3>What?</h3>
+    <p>
+      A Github action step has been added to <a href="https://github.com/rigup/core-ui" title="core-ui repo">core-ui
+        package</a> that enables designers to be part of the iterative
+      development process. Chromatic and Storybook enable us to visually identify UI bugs on components, ensuring
+      consistency across UI components.
+    </p>
+    <h3>Shoutout 📢</h3>
+    <p>@Juan, @Mark 👏</p>
+    <ul>
+      <li>
+        <a href="https://www.chromatic.com/" title="Chromatic main website">Chromatic main
+          website</a>
+      </li>
+      <li>
+        <a href="https://www.chromatic.com/features/test" title="Chromatic Test Feature">Chromatic Test Feature</a>
+      </li>
+    </ul>
+  </div>
+
+  <div style="margin: 50px 0;">
+    <h2 style="color: #2a56e7;">Frontend Ecosystem 🦄</h2>
+    <h3>What?</h3>
+    <p>
+      The frontend ecosystem is getting more traction and we are shifting towards providing a more permanent experience
+      with the addition of our <strong>frontend core packages</strong>.
+    </p>
+    <p>These packages include:</p>
+    <ol>
+      <li>
+        @rigup/lattice
+      </li>
+      <li>
+        @rigup/core-ui
+      </li>
+      <li>
+        @rigup/core-widgets
+      </li>
+    </ol>
+    <p style="margin: 50px 0;">
+      Let’s look at an example of how Lattice, core-ui, and core-widgets work together. The first diagram shows the
+      dependencies between a set of atom components (Lattice) and a molecule component in core-ui. Finally, in the last
+      diagram we can see how an organism (core-widgets) might use both core-ui and Lattice components.
+    </p>
+  </div>
+</div>
